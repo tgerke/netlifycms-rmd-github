@@ -1,0 +1,29 @@
+backend:
+  name: github
+  repo: tgerke/netlifycms-rmd-ghpages
+  branch: main
+  site_domain: netlifycms-rmd-ghpages.netlify.app
+
+site_url: https://tgerke.github.io/netlifycms-rmd-ghpages/
+
+media_folder: "images/uploads"
+
+collections:
+  - name: "Rmd Pages"
+    label: "Rmarkdown"
+    format: "yaml-frontmatter"
+    files:
+      - label: "Index"
+        name: "index"
+        file: "index.Rmd"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Markdown Pages"
+    label: "markdown"
+    files:
+      - label: "readme"
+        name: "readme"
+        file: "README.md"
+        fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+          
