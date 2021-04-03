@@ -2,7 +2,7 @@ backend:
   name: github
   repo: tgerke/netlifycms-rmd-github
   branch: main
-  site_domain: netlifyCMS-with-GHPages.netlify.app
+  site_domain: netlifycms-rmd-github.netlify.app
 
 site_url: https://tgerke.github.io/netlifycms-rmd-github/
 
